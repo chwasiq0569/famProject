@@ -211,7 +211,7 @@ footer .footerLowerSection div{
     .wrapper .main .itemsContainer .sectionOne,
     .wrapper .main .itemsContainer .sectionTwo,
     .wrapper .main .itemsContainer .sectionThree{
-        text-align: center;
+        text-align: left;
         padding: 0.5rem;
         min-width: 32%;
         /* flex: 1; */
@@ -221,6 +221,8 @@ footer .footerLowerSection div{
     .wrapper .main .itemsContainer .sectionTwo{
         border-top: 1px solid var(--optionSelect);
         border-bottom: 1px solid var(--optionSelect);
+
+        flex: 1;
     }
     footer{
         padding-top: 3rem;
